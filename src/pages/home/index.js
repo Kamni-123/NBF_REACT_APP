@@ -13,7 +13,7 @@ import Nightlife from '../../components/common/Nightlife/Nightlife';
 const HomePage = () => {
   const [activeTab, setActiveTab] = useState("Delivery");
   return (
-    <div className="">
+    <div className="w-3/4 m-auto">
       <Header />
       <TabOption activeTab= {activeTab}  setActiveTab= {setActiveTab} />
       {getCorrectScreen(activeTab)}
