@@ -2,6 +2,7 @@ import React from 'react'
 import Filters from '../Filters/Filters';
 import { LiaFilterSolid } from "react-icons/lia";
 import DeliveryCollections from './DeliveryCollections/DeliveryCollections';
+import TopBrands from './TopBrands/TopBrands';
 
 
 
@@ -42,6 +43,7 @@ const Delivery = () => {
     <div>
     <div className='text-lg'> <Filters filterList= {deliveryFilters}/></div>
     <DeliveryCollections/>
+    <TopBrands/>
   
     
    

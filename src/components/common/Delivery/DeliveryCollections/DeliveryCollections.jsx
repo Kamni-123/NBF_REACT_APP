@@ -88,12 +88,12 @@ const DeliveryCollections = () => {
         <div className="text-2xl font-semibold pl-4 pt-7 pb-7 text-gray-500">
           Inspiration for today's delivery!
           <Carousel   className=" pt-7" responsive={responsive}>
-            <div  className="w-166.6 h-150">
+            <div  className="w-1/2">
               <img className="  rounded-full w-40 flex justify-center items-center"
                 src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
                 alt="pizza"
               />
-              <h1 className="hi ">PIZZA</h1>
+              <h1 className=" ">Pizza</h1>
               <p></p>
             </div>
             <div  className="  ">
