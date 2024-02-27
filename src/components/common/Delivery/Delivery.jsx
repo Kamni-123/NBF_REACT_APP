@@ -1,6 +1,10 @@
 import React from 'react'
 import Filters from '../Filters/Filters';
 import { LiaFilterSolid } from "react-icons/lia";
+import DeliveryCollections from './DeliveryCollections/DeliveryCollections';
+
+
+
 
 
 
@@ -37,10 +41,15 @@ const Delivery = () => {
   return (
     <div>
     <div className='text-lg'> <Filters filterList= {deliveryFilters}/></div>
+    <DeliveryCollections/>
+  
+    
+   
+    
     
     </div>
     
   )
 }
 
-export default Delivery
+export default Delivery;

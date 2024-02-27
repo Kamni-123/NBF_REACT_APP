@@ -3,7 +3,7 @@ import nbf_logo from "../images/nbff logo.png";
 import { IoLocation } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
 import { FaCaretDown } from "react-icons/fa6";
-// import { FaCaretUp } from "react-icons/fa6";
+
 const Header = () => {
   return (
     <nav className=" h-20 header flex  items-center">
