@@ -62,7 +62,7 @@ const responsive = {
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 6,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
@@ -85,57 +85,59 @@ const DeliveryCollections = () => {
   return (
     <div className="delivery-collections ml-1 mt-2">
       
-        <div className="text-2xl font-semibold pl-4 pt-7 pb-7 text-gray-500">
+        <div className="text-2xl font-semibold pl-4 pt-7  text-gray-500">
           Inspiration for today's delivery!
-          <Carousel   className=" pt-7" responsive={responsive}>
-            <div  className="w-1/2">
-              <img className="  rounded-full w-40 flex justify-center items-center"
+          <Carousel   className=" bg-gray-100 pt-7" responsive={responsive}>
+            <div  className=" ml-5">
+                <div className=" flex justify-centre items-center">
+              <img className=" rounded-full w-40 flex justify-center items-center"
                 src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
                 alt="pizza"
               />
-              <h1 className=" ">Pizza</h1>
+              </div>
+              <h1 className="flex justify-center items-center ">Pizza</h1>
               <p></p>
             </div>
-            <div  className="  ">
+            <div  className=" ml-5 ">
               <img className=" w-40 rounded-full flex justify-center items-center"
               src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
               alt="pizza" />
-              <h1 className="">Biryani</h1>
+              <h1 className="flex justify-center items-center">Biryani</h1>
               <p></p>
             </div>
-            <div >
-              <img className="rounded-full  w-40 flex justify-center items-center"
+            <div  className=" ml-6">
+              <img className="rounded-full px-1.5 w-40 flex justify-center items-center"
               src="https://mrbrownbakery.com/image/images/rEyMLsj21Ooxk5mfhdeh7bSevaLGzUtczWXVDj4u.jpeg?p=full"
               alt="pizza" />
-              <h1 className=" ">Burger</h1>
+              <h1 className="flex justify-center items-center ">Burger</h1>
               <p></p>
             </div>
-            <div >
+            <div className=" ml-6" >
               <img className="rounded-full  w-40 flex justify-center items-center"
               src="https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png"
               alt="pizza" />
-              <h1 className=" ">Cake</h1>
+              <h1 className="flex justify-center items-center ">Cake</h1>
               <p></p>
             </div>
-            <div >
+            <div className=" ml-6" >
               <img className="rounded-full  w-40 flex justify-center items-center"
               src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png"
               alt="pizza" />
-              <h1 className="">Chicken</h1>
+              <h1 className="flex justify-center items-center">Chicken</h1>
               <p></p>
             </div>
-            <div >
+            <div  className=" ml-6">
               <img className="rounded-full  w-40 flex justify-center items-center"
               src="https://b.zmtcdn.com/data/o2_assets/2b5a5b533473aada22015966f668e30e1633434990.png"
               alt="pizza" />
-              <h1 className=" ">Paratha</h1>
+              <h1 className=" flex justify-center items-center">Paratha</h1>
               <p></p>
             </div>
-            <div > 
+            <div className=" ml-6"> 
               <img className=" rounded-full w-40 flex justify-center items-center"
               src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png"
               alt="pizza" />
-              <h1 className="">Fried  Rice</h1>
+              <h1 className="flex justify-center items-center">Fried  Rice</h1>
               <p></p>
             </div>
           </Carousel>
