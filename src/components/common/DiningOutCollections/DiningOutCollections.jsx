@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { FaCaretRight } from "react-icons/fa";
 
 
 const responsive = {
@@ -29,7 +30,11 @@ const responsive = {
         
           <div className="text-3xl font-semibold bg-gray-100 pl-1 mb-7 pb-5 text-gray-700">
           Collections
-          <div className="text-xl text-gray-500 pb-2">Explore curated lists of top restaurants, cafes, pubs, and bars in Coimbatore, based on trends</div>
+          <div className=" flex justify-between items-centre">
+          <div className="text-lg text-gray-500 pb-2">Explore curated lists of top restaurants, cafes, pubs, and bars in Coimbatore, based on trends</div>
+          <div className='text-lg  text-red-500 flex justify-center items-center'>All collection in Madurai<FaCaretRight />
+</div>
+          </div>
             <Carousel   className=" bg-gray-100 " responsive={responsive}>
               <div  className=" ml-1">
                   <div className=" ">

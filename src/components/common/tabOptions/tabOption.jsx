@@ -53,7 +53,7 @@ const TabOption = ({ activeTab, setActiveTab}) => {
                     activeTab === tab.name ? tab.active_img : tab.inactive_img
                   }
                   alt={tab.name}
-                  className=" flex justify-center items-center  rounded-md  ml-7 pb-0 w-11 h-11"
+                  className=" flex justify-center items-center  rounded-md ml-7  w-11 h-11"
                 />
               </div>
               <div className="ml-2 text-lg pt-7 text-gray-500 font-medium hover:text-red-600 ">{tab.name}</div>

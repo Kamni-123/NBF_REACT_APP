@@ -2,6 +2,8 @@ import React from 'react'
 import Filters from '../Filters/Filters';
 import DiningOutCollections from '../DiningOutCollections/DiningOutCollections';
 import { LiaFilterSolid } from "react-icons/lia";
+import ExploreSections from '../ExploreSection/ExploreSections';
+import { DineOut } from '../../../Data/DineOut';
 const diningOutFilters = [
   {
     id: 1,
@@ -31,14 +33,21 @@ const diningOutFilters = [
 ]
 
 
-
+const restaurantList = DineOut ;
 const DiningOut = () => {
   return (
     <div>
     
     <DiningOutCollections />
     <div className='text-lg '><Filters filterList= {diningOutFilters}/></div>
+    <div className=" mt-7"><img src="https://b.zmtcdn.com/data/o2_assets/da94405b04f6ae6bf64a4e2a01b1b5c11686563732.png" alt="XOXO" /></div>
+    {/* <div className="text-3xl text-gray-700 font-semibold mt-5">Trending dining restaurants in Coimbatore</div> */}
+    <div className=' mt-6'>
+    <ExploreSections list={restaurantList} collectionName = "Trending dining restaurants in Madurai" />
     </div>
+    </div>
+
+    
 
   )
 }
