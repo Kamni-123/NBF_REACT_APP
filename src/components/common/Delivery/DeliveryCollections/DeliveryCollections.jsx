@@ -83,11 +83,11 @@ const responsive = {
 //   };
 const DeliveryCollections = () => {
   return (
-    <div className="delivery-collections ml-1 mt-2">
+    <div className="delivery-collections  ml-1 mt-2">
       
-        <div className="text-2xl font-semibold pl-4 pt-7  text-gray-500">
+        <div className="text-2xl font-semibold bg-gray-100 pl-4 pt-4 mt-7  text-gray-500">
           Inspiration for today's delivery!
-          <Carousel   className=" bg-gray-100 pt-7" responsive={responsive}>
+          <Carousel   className="pb-6 bg-gray-100 pt-7" responsive={responsive}>
             <div  className=" ml-5">
                 <div className=" flex justify-centre items-center">
               <img className=" rounded-full w-40 flex justify-center items-center"

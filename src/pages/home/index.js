@@ -11,11 +11,11 @@ import Nightlife from '../../components/common/Nightlife/Nightlife';
 
 
 const HomePage = () => {
-  const [activeTab, setActiveTab] = useState("Delivery");
+  const [activeTab, setActiveTab] = useState("");
   return (
     <div className="w-3/4 m-auto">
       <Header />
-      <TabOption activeTab= {activeTab}  setActiveTab= {setActiveTab} />
+      <TabOption activeTab = {activeTab}  setActiveTab = {setActiveTab} />
       {getCorrectScreen(activeTab)}
       <Footer />
 
@@ -23,16 +23,16 @@ const HomePage = () => {
     
   );
 };
-const getCorrectScreen = (tab) => {
-  switch (tab) {
+const getCorrectScreen = (tabs) => {
+  switch (tabs) {
     case 'Delivery':
       return <Delivery />;
-    case 'Dine Out':
-      return <DiningOut />;
-    case 'DNightlife':
+    case 'DiningOut':
+      return <DiningOut/>;
+    case 'Nightlife':
       return <Nightlife />;
     default:
-      return <Delivery />;
+      return <DiningOut />;
   }
 };
 

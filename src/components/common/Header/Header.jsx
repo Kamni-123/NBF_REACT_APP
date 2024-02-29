@@ -3,6 +3,7 @@ import nbf_logo from "../images/nbff logo.png";
 import { IoLocation } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
 import { FaCaretDown } from "react-icons/fa6";
+import LoginPage from "../Login/Login";
 
 const Header = () => {
   return (
@@ -35,7 +36,8 @@ const Header = () => {
           
         </div>
         <div className="flex gap-2 justify-center mr-3 items-center">
-          <div className="flex items-center  justify-center p-4  leading-6 text-right align-middle font-light text-gray-600 cursor-pointer rounded-md py-2 px-3">Log in</div>
+          <div className="flex items-center  justify-center p-4  leading-6 text-right align-middle font-light text-gray-600 cursor-pointer rounded-md py-2 px-3">
+            Log in</div>
           <div className="flex items-center justify-between leading-6 text-right align-middle font-light text-gray-600 cursor-pointer rounded-md py-2 px-3 ">Sign in</div>
           </div>
       </div>
