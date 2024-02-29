@@ -11,7 +11,7 @@ const responsive = {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 6,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -27,58 +27,57 @@ const responsive = {
     return (
       <div className="delivery-collections  ml-1 mt-2">
         
-          <div className="text-2xl font-semibold bg-gray-100 pl-4 pt-4 mt-7  text-gray-500">
+          <div className="text-3xl font-semibold bg-gray-100 pl-1 mb-7 pb-5 text-gray-700">
           Collections
-          <div className="text-sm text-gray-500">Explore curated lists of top restaurants, cafes, pubs, and bars in Coimbatore, based on trends</div>
-            <Carousel   className="pb-6 bg-gray-100 pt-7" responsive={responsive}>
-              <div  className=" ml-5">
-                  <div className=" flex justify-centre items-center">
-                <img className="  w-40 flex justify-center items-center"
-                  src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
-                  alt="pizza"
+          <div className="text-xl text-gray-500 pb-2">Explore curated lists of top restaurants, cafes, pubs, and bars in Coimbatore, based on trends</div>
+            <Carousel   className=" bg-gray-100 " responsive={responsive}>
+              <div  className=" ml-1">
+                  <div className=" ">
+                <img className="rounded-md w-80 h-80 object-cover"
+                  src="https://b.zmtcdn.com/data/collections/61d06b1dc0a478a6216bcf07ff8b2d67_1692344090.jpg"
+                  alt="restaurant"
                 />
                 </div>
                 {/* <h1 className="flex justify-center items-center ">Pizza</h1> */}
                 <p></p>
               </div>
-              <div  className=" ml-5 ">
-                <img className=" w-40  flex justify-center items-center"
-                src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
-                alt="pizza" />
-                {/* <h1 className="flex justify-center items-center">Biryani</h1> */}
-                <p></p>
+              <div  className=" ml-1">
+                <img className=" rounded-md w-80 h-80 object-cover "
+                src="https://b.zmtcdn.com/data/collections/91657c6e0f9452b3d54b4658e7bc90b9_1692375924.jpg"
+                alt="restaurant " />
+                
               </div>
-              <div  className=" ml-6">
-                <img className=" px-1.5 w-40 flex justify-center items-center"
-                src="https://mrbrownbakery.com/image/images/rEyMLsj21Ooxk5mfhdeh7bSevaLGzUtczWXVDj4u.jpeg?p=full"
+              <div  className=" ml-1">
+                <img className="rounded-md  w-80 h-80 object-cover "
+                src="https://b.zmtcdn.com/data/collections/0817dce042a9e83ee7323323f5ee502d_1692376226.jpeg"
                 alt="pizza" />
                 {/* <h1 className="flex justify-center items-center ">Burger</h1> */}
                 <p></p>
               </div>
-              <div className=" ml-6" >
-                <img className="rounded-full  w-40 flex justify-center items-center"
-                src="https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png"
+              <div className=" ml-1" >
+                <img className=" rounded-md  w-80 h-80 object-cover"
+                src="https://b.zmtcdn.com/data/collections/1861a2246de9e8cc96569b5dc4c3405c_1692343610.jpg"
                 alt="pizza" />
                 {/* <h1 className="flex justify-center items-center ">Cake</h1> */}
                 <p></p>
               </div>
-              <div className=" ml-6" >
-                <img className="rounded-full  w-40 flex justify-center items-center"
-                src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png"
+              <div className=" ml-1" >
+                <img className="  rounded-md  w-80 h-80 object-cover"
+                src="https://b.zmtcdn.com/data/collections/92aaa9b449d0e05e0d118b5a0fa8fadd_1682856493.png"
                 alt="pizza" />
                 {/* <h1 className="flex justify-center items-center">Chicken</h1> */}
                 <p></p>
               </div>
-              <div  className=" ml-6">
-                <img className="rounded-full  w-40 flex justify-center items-center"
-                src="https://b.zmtcdn.com/data/o2_assets/2b5a5b533473aada22015966f668e30e1633434990.png"
+              <div  className=" ml-1">
+                <img className="rounded-md  w-80 h-80 object-cover"
+                src="https://b.zmtcdn.com/data/collections/5855a69f15923993f1f20925a07e581f_1692344266.png"
                 alt="pizza" />
                 {/* <h1 className=" flex justify-center items-center">Paratha</h1> */}
                 <p></p>
               </div>
-              <div className=" ml-6"> 
-                <img className=" rounded-full w-40 flex justify-center items-center"
-                src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png"
+              <div className=" ml-1"> 
+                <img className= " rounded-md w-80 h-80 object-cover"
+                src="https://b.zmtcdn.com/data/collections/cb441382af822ed30451d127d4a9eb76_1682690432.jpg"
                 alt="pizza" />
                 {/* <h1 className="flex justify-center items-center">Fried  Rice</h1> */}
                 <p></p>

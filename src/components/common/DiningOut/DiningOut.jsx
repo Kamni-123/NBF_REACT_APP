@@ -35,8 +35,9 @@ const diningOutFilters = [
 const DiningOut = () => {
   return (
     <div>
-    <div className='text-lg'><Filters filterList= {diningOutFilters}/></div>
+    
     <DiningOutCollections />
+    <div className='text-lg '><Filters filterList= {diningOutFilters}/></div>
     </div>
 
   )

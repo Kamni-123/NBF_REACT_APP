@@ -3,7 +3,6 @@ import nbf_logo from "../images/nbff logo.png";
 import { IoLocation } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
 import { FaCaretDown } from "react-icons/fa6";
-import LoginPage from "../Login/Login";
 
 const Header = () => {
   return (
