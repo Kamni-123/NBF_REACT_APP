@@ -6,39 +6,35 @@ import { FaCaretDown } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <nav className=" h-20 header flex  items-center">
+    <nav className="header flex items-center justify-between px-4 py-2 md:px-6 md:py-3">
       <img
-        className="header-logo h-20 w-25  cursor-pointer"
+        className="header-logo h-12 w-auto cursor-pointer"
         alt="Logo"
         src={nbf_logo}
-      ></img>
-      <div className=" flex justify-between shadow-md rounded-lg w-full">
-        <div className=" flex items-center justify-center">
-          <div className="  gap-4 justify-center items-center rounded-md p-2 flex">
-            <div className=""><IoLocation /></div>
-            <input
-              className=" border-none  rounded-md p-1"
-              type="loaction"
-              placeholder="Madurai"
-            />
-            <div className=""><FaCaretDown/> </div>
-          </div>
-          <div class="border h-10 border-gray-300"></div>
-          <div className=" gap-4 justify-center items-center rounded-md p-2 flex">
-            <div><FaSearch /></div>
-            <input className=" w-96 border-none rounded-md p-1"
-             type="text" 
-             placeholder="search for restaurants, cuisine and dishes..." 
-            />
-          </div>
-          
-          
+      />
+      <div className="flex items-center rounded-md shadow-2xl">
+        <div className="flex items-center rounded-md  mr-2 p-1">
+          <IoLocation />
+          <input
+            className="border-none rounded-md p-1 ml-1"
+            type="loaction"
+            placeholder="Madurai"
+          />
+          <FaCaretDown />
+          <div className="border ml-2 h-9"></div>
         </div>
-        <div className="flex gap-2 justify-center mr-3 items-center">
-          <div className="flex items-center  justify-center p-4  leading-6 text-right align-middle font-light text-gray-600 cursor-pointer rounded-md py-2 px-3">
-            Log in</div>
-          <div className="flex items-center justify-between leading-6 text-right align-middle font-light text-gray-600 cursor-pointer rounded-md py-2 px-3 ">Sign in</div>
-          </div>
+        <div className="flex items-center rounded-md p-1">
+          <FaSearch />
+          <input
+            className="w-32 md:w-48 border-none rounded-md p-1 ml-1"
+            type="text"
+            placeholder="Search for restaurants.."
+          />
+        </div>
+      </div>
+      <div className="flex items-center gap-2">
+        <div className="text-gray-600 cursor-pointer">Log in</div>
+        <div className="text-gray-600 cursor-pointer">Sign in</div>
       </div>
     </nav>
   );
